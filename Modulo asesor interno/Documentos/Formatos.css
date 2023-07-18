@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#Buscar{
+    position: absolute;
+    left: 1170px;
+    top: 100px;
+}
+
+h3{
+    position: absolute; 
+    left: 1170px;
+    top: 80px;
+}
+.titulo{
+    position: absolute;
+    color: white;
+    top: -100px;
+}
+h3{
+    color: white;
+}
+.busqueda{
+    position: relative;
+    left: 15px;
+    border-radius: 100px;
+    top: -260px;
+
+    
+}
+.boton{
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120vh;
+    background: linear-gradient(rgb(35, 61, 123), #000000);/*el color del cuerpo de la pagina*/
+}
+
+.container {
+    border: solid 2px white; /*el marco del contenedor */
+}
+
+table {
+    color: #fff;/*color de letras dentro de la tabla*/
+    font-size: 15px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgb(35, 61, 123);/*el apartado oh encabezado de la tabla*/
+}
+
+th {
+    padding: 20px 15px ;
+    font-weight: 700;/*grosor de titulo de tabla*/
+    text-transform: uppercase;
+}
+
+td {
+    padding: 20px;
+    border-bottom: solid 2px rgba(255, 247, 247, 0.2);
+}
+
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgb(11, 39, 105);
+}
+
+/***************************Menu de navegación***************************************************/
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;left: 0;
+}
+.container{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container .menu{
+    float: right;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
